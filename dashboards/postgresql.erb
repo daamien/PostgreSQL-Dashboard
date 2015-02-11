@@ -1,0 +1,35 @@
+<script type='text/javascript'>
+$(function() {
+Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":2,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1}]')
+});
+</script>
+
+<% content_for :title do %>PostgreSQL dashboard<% end %>
+<div class="gridster">
+  <ul>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Image" data-image="/postgresql.png"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Hello" data-text="All your data are belong to us" data-moreinfo="Protip: You can drag the widgets around!"></div>
+    </li>
+    
+<li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+
+  <div data-id="valuation" data-view="Number" data-title="Load" data-moreinfo="running queries" data-prefix=""></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="hitratio" data-view="Meter" data-title="Cache Hit Ratio" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Clock"></div>
+      <i class="icon-time icon-background"></i>
+    </li>
+
+
+  </ul>
+</div>

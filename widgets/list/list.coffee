@@ -4,3 +4,6 @@ class Dashing.List extends Dashing.Widget
       $(@node).find('ol').remove()
     else
       $(@node).find('ul').remove()
+
+  onData: (data) ->
+    debugger

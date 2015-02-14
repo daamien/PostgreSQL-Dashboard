@@ -3,11 +3,12 @@
 
 PostgreSQL Dashboard is simple monitoring tool that gives a live overview of a PostgreSQL instance.
 
+![](https://github.com/daamien/pgDashboard/blob/master/public/pgdashboard.screenshot2.png)
 
 It is designed to be displayed on a large screen in a monitoring room or an open space office.
 The current dashboard is currently composed of 5 widgets :
 
-* **General Info** : version, number of host databases 
+* **General Info** : version, number of host databases, etc. 
 * **Hit Ratio** : the % of data found in cache
 * **Buffers** : The number of new buffers allocated
 * **Queries** : The number of active queries currently running of the instance

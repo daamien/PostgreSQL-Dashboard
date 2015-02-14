@@ -1,7 +1,5 @@
 
-# PostgreSQL Dashboard
-
-PostgreSQL Dashboard is simple monitoring tool that gives a live overview of a PostgreSQL instance.
+PostgreSQL Dashboard is simple monitoring tool that provides a live activity report of a PostgreSQL instance.
 
 ![](https://raw.githubusercontent.com/daamien/pgDashboard/master/public/pgdashboard.screenshot2.png)
 
@@ -48,8 +46,6 @@ Basically to run this tool, you will need:
 ## Security
 
 __You need to be careful about the security of your PostgreSQL server when installing this tool .__
-
-If you don't protect your communications, an attacker placed between the dashboard and PostgreSQL could gain access to your database server.
 
 Therefore I **strongly** recommend the following precautions :
 

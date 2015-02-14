@@ -3,7 +3,7 @@
 
 PostgreSQL Dashboard is simple monitoring tool that gives a live overview of a PostgreSQL instance.
 
-![](https://github.com/daamien/pgDashboard/blob/master/public/pgdashboard.screenshot2.png)
+![](https://raw.githubusercontent.com/daamien/pgDashboard/master/public/pgdashboard.screenshot2.png)
 
 It is designed to be displayed on a large screen in a monitoring room or an open space office.
 The current dashboard is currently composed of 5 widgets :
@@ -46,8 +46,6 @@ Basically to run this tool, you will need:
 * Dashing 1.3.x or later
 
 ## Security
-
-/!\ WARNING /!\
 
 __You need to be careful about the security of your PostgreSQL server when installing this tool .__
 

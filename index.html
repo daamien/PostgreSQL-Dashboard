@@ -4,7 +4,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="PostgreSQL Dashboard : A simple PostgreSQL Dashboard based on Dashing and Sinatra">
+    <meta name="description" content="PostgreSQL Dashboard : A real-time monitoring screen based on Dashing and Sinatra ">
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
@@ -19,7 +19,7 @@
           <a id="forkme_banner" href="https://github.com/daamien/pgDashboard">View on GitHub</a>
 
           <h1 id="project_title">PostgreSQL Dashboard</h1>
-          <h2 id="project_tagline">A simple PostgreSQL Dashboard based on Dashing and Sinatra</h2>
+          <h2 id="project_tagline">A real-time monitoring screen based on Dashing and Sinatra </h2>
 
             <section id="downloads">
               <a class="zip_download_link" href="https://github.com/daamien/pgDashboard/zipball/master">Download this project as a .zip file</a>
@@ -31,10 +31,7 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>
-<a id="postgresql-dashboard" class="anchor" href="#postgresql-dashboard" aria-hidden="true"><span class="octicon octicon-link"></span></a>PostgreSQL Dashboard</h1>
-
-<p>PostgreSQL Dashboard is simple monitoring tool that gives a live overview of a PostgreSQL instance.</p>
+        <p>PostgreSQL Dashboard is simple monitoring tool that provides a live activity report of a PostgreSQL instance.</p>
 
 <p><img src="https://raw.githubusercontent.com/daamien/pgDashboard/master/public/pgdashboard.screenshot2.png" alt=""></p>
 
@@ -43,9 +40,9 @@ The current dashboard is currently composed of 5 widgets :</p>
 
 <ul>
 <li>
-<strong>General Info</strong> : version, number of host databases, etc. </li>
+<strong>General Info</strong> : Version, number of host databases, etc. </li>
 <li>
-<strong>Hit Ratio</strong> : the % of data found in cache</li>
+<strong>Hit Ratio</strong> : The % of data found in cache</li>
 <li>
 <strong>Buffers</strong> : The number of new buffers allocated</li>
 <li>
@@ -54,9 +51,9 @@ The current dashboard is currently composed of 5 widgets :</p>
 <strong>Twitter</strong> : A glimpse of the #PostgreSQL feed</li>
 </ul>
 
-<p>Adding a new job should be fairly easy and writing a custom widget to display stats you find relevant or some "business logic" valuation.</p>
+<p>Adding a new job should be fairly easy. this tool is design so that you can write a custom widget to display stats you find relevant or build a dynamic graph on some "business logic" valuation.</p>
 
-<p>The layout is entirely flexible. You can easily drag'n'drop any widget to put wherever you want on the screen. You can also edit the dashboard HTML code to adapt it to wide screens.</p>
+<p>The layout is also entirely flexible. You can easily drag'n'drop any widget to put it wherever you want on the screen. And HTML code of the dashboard can be modified for specific needs, such as specific screen dimensions.</p>
 
 <h2>
 <a id="quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick Start</h2>
@@ -92,8 +89,6 @@ Dashing itself is based on Sinatra, a very nice Ruby web framework.</p>
 <a id="security" class="anchor" href="#security" aria-hidden="true"><span class="octicon octicon-link"></span></a>Security</h2>
 
 <p><strong>You need to be careful about the security of your PostgreSQL server when installing this tool .</strong></p>
-
-<p>If you don't protect your communications, an attacker placed between the dashboard and PostgreSQL could gain access to your database server.</p>
 
 <p>Therefore I <strong>strongly</strong> recommend the following precautions :</p>
 

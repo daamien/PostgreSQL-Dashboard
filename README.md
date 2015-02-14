@@ -6,15 +6,15 @@ PostgreSQL Dashboard is simple monitoring tool that provides a live activity rep
 It is designed to be displayed on a large screen in a monitoring room or an open space office.
 The current dashboard is currently composed of 5 widgets :
 
-* **General Info** : version, number of host databases, etc. 
-* **Hit Ratio** : the % of data found in cache
+* **General Info** : Version, number of host databases, etc. 
+* **Hit Ratio** : The % of data found in cache
 * **Buffers** : The number of new buffers allocated
 * **Queries** : The number of active queries currently running of the instance
 * **Twitter** : A glimpse of the #PostgreSQL feed
 
-Adding a new job should be fairly easy and writing a custom widget to display stats you find relevant or some "business logic" valuation.
+Adding a new job should be fairly easy. this tool is design so that you can write a custom widget to display stats you find relevant or build a dynamic graph on some "business logic" valuation.
 
-The layout is entirely flexible. You can easily drag'n'drop any widget to put wherever you want on the screen. You can also edit the dashboard HTML code to adapt it to wide screens.
+The layout is also entirely flexible. You can easily drag'n'drop any widget to put it wherever you want on the screen. And HTML code of the dashboard can be modified for specific needs, such as specific screen dimensions.
 
 ## Quick Start
 

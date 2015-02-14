@@ -21,9 +21,11 @@ The layout is also entirely flexible. You can easily drag'n'drop any widget to p
 If you already have installed a Ruby environnement, simply type:
 
 ```
-  git clone https://github.com/daamien/pgDashboard.git && cd pgDashboard
+  git clone https://github.com/daamien/pgDashboard.git
+  cd pgDashboard
   bundle
-  mv config_postgresql.rb.example config_postgresql.rb && vi config_postgresql.rb
+  mv config_postgresql.rb.example config_postgresql.rb
+  vi config_postgresql.rb
   dashing start
 ```
 

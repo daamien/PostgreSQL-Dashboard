@@ -2,7 +2,11 @@
 # Install PostgreSQL Dashboard
 
 
-## Prepare the environement
+## Prepare the environment
+
+You need to setup a Ruby environment and the PostgreSQL development package.
+
+For instance on debian/ubuntu, here's the typical command lines you have to run:
 
 ```
   sudo apt-get update 	
@@ -10,34 +14,39 @@
   sudo apt-get install postgresql-server-dev-9.4
 ```
 
-(replace `9.4` by your current postgreSQL version)
+Of you need to replace `9.4` by your current postgreSQL version.
 
-
-## Install Dashing
-
-```
-  sudo gem install dashing
-```
 
 
 ## Install PostgreSQL Dashboard
 
 ```
-  wget https://github.com/daamien/pgDashboard/archive/master.zip
+  wget https://github.com/daamien/PostgreSQL-Dashboard/archive/master.zip
   unzip master.zip
-  cd pgDashboard-master
+  cd PostgreSQL-Dashboard-master
   bundle
 ```
 
 ## Edit the config file
 
 ```
+  cp config_postgresql.rb.example config_postgresql.rb
   vi config_postgresql.rb
 ```
+
+**Do not use a superuser account to connect to Postgres**
 
 ## Launch
 
 ```
   dashing start	
 ```
+
+The dashboard will be available the 3030 port of the server.
+
+For instance [http://yourserver:3030]()
+
+## Security
+
+By default there's no authentification. Anyone can access the dashboard. If you need to implement authentication, please read [How to: Add authentication](https://github.com/Shopify/dashing/wiki/How-to:-Add-authentication)
 

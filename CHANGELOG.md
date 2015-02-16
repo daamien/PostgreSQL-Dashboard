@@ -3,7 +3,7 @@ CHANGELOG
 
 PostgreSQL Dashboard uses [Semantic Versioning](http://semver.org/)
 
-0.2.0 ()
+0.2.0 (2014-02-16)
 -----------------------
 
 * Scheduler frequency can set globally and locally for each job

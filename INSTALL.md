@@ -10,13 +10,13 @@ For instance on debian/ubuntu, here's the typical command lines you have to run:
 
 ```
   sudo apt-get update 	
-  sudo apt-get install ruby rubygems ruby-dev bundler
+  sudo apt-get install nodejs ruby rubygems ruby-dev bundler
   sudo apt-get install postgresql-server-dev-9.4
 ```
 
 Of you need to replace `9.4` by your current postgreSQL version.
 
-
+On some linux distributions, installing ``nodejs`` can be tricky. If you're having problems, this page might help: https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager 
 
 ## Install PostgreSQL Dashboard
 

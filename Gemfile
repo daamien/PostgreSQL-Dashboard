@@ -1,7 +1,7 @@
-#source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'dashing'
+gem 'pg'
 
 ## Remove this if you don't need a twitter widget.
-gem 'pg'
 gem 'twitter', '>= 5.9.0'

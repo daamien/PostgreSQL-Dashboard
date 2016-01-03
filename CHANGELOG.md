@@ -3,6 +3,11 @@ CHANGELOG
 
 PostgreSQL Dashboard uses [Semantic Versioning](http://semver.org/)
 
+0.3.1 (2015-01-03)
+-----------------------
+
+* FIX Gemfile
+
 0.3.0 (2015-01-03)
 -----------------------
 

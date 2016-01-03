@@ -23,7 +23,7 @@ begin
   # Connect
   db = PGconn.connect( pg['host'], pg['port'], pg['options'], pg['tty'],pg['dbname'], pg['user'], pg['password'])
   version = db.parameter_status('server_version');
-  major_version = version.split(".").take(2).join(".")	
+  major_version = version.split(".").take(2).join(".").sub(/beta?/,'').sub(/rc?/,'')
 
 
   # Load the SQL query

@@ -3,6 +3,12 @@ CHANGELOG
 
 PostgreSQL Dashboard uses [Semantic Versioning](http://semver.org/)
 
+0.3.0 (2015-01-03)
+-----------------------
+
+* Support for PostgreSQL 9.5
+* Support for beta and RC versions
+
 0.2.0 (2014-02-16)
 -----------------------
 
